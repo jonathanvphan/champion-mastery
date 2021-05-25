@@ -1,2 +1,2 @@
-# champion_mastery
+# champion-mastery
  Writes to a Google Sheet a summoner's champion mastery
