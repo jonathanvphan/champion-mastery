@@ -39,7 +39,7 @@ else:
     print('Error getting current patch')
 
 # Data Dragon information for champions
-data_dragon = requests.get('http://ddragon.leagueoflegends.com/cdn/' + current_patch['n']['item'] + '/data/en_US/champion.json')
+data_dragon = requests.get('http://ddragon.leagueoflegends.com/cdn/' + current_patch['v'] + '/data/en_US/champion.json')
 if data_dragon.status_code == 200:
     static_champ_list = json.loads(data_dragon.content.decode('utf-8'))
 else:
