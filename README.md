@@ -3,4 +3,4 @@
 
 Initial version written in Python
 
-JavaScript version written to work with my website
+JavaScript version written to work with my wix website
